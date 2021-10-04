@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100vh;
+  font-family: 'Poppins';
+  background: white;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 18vw;
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+h1,
+p {
+  width: 50vw;
+  opacity: 0;
+  line-height: 45px;
+  transform: translateY(-20px);
+}
+
+
+/*# sourceMappingURL=main.css.map*/
